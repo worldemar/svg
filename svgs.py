@@ -24,7 +24,7 @@ def main():
             sys.executable, 'svg.py',
             '--svgdir', os.path.join(args.svgdirs, package),
             '--builddir', args.builddir,
-            '--resolutions', args.resolutions
+            '--resolutions', "128," + args.resolutions # 128 is the thumbnail size from release.py
         ])
 
 

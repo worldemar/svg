@@ -14,7 +14,7 @@ jobs:
           docker build --pull --rm -t svgs:ci .
       - name: generate QR
         run: |
-          docker run --rm -v .:/src -w /src svgs:ci svgs.py --htmldirs=svgs --builddir=bundles
+          docker run --rm -v .:/src -w /src svgs:ci svgs.py --htmldirs=svgs --builddir=bundles --resolutions=480,720,1080,1440,2160
       - name: generate README.md
         run: |
           rm -rf docs
