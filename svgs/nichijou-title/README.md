@@ -1,1 +1,1 @@
-Title from [Nichijou Anime](https://en.wikipedia.org/wiki/Nichijou). Traced and manually modified from high-resolution frame, to keep font and kerning *exactly* as [Keiichi Arawi](https://en.wikipedia.org/wiki/Keiichi_Arawi) intended. Colors may be imperceptibly inaccurate. Wiggly outline is *intentional*, to match drawing style of original.
+Title from [Nichijou Anime](https://en.wikipedia.org/wiki/Nichijou). Traced and manually modified from high-resolution frame, to keep font *exactly* as [Keiichi Arawi](https://en.wikipedia.org/wiki/Keiichi_Arawi) intended.
