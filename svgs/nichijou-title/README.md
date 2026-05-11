@@ -1,1 +1,3 @@
-Title from [Nichijou Anime](https://en.wikipedia.org/wiki/Nichijou). Traced and manually modified from high-resolution frame, to keep font *exactly* as [Keiichi Arawi](https://en.wikipedia.org/wiki/Keiichi_Arawi) intended.
+# Nichijou
+
+Title kanji from [Nichijou Anime](https://en.wikipedia.org/wiki/Nichijou). Traced and manually modified from high-resolution frame, to keep font *exactly* as [Keiichi Arawi](https://en.wikipedia.org/wiki/Keiichi_Arawi) intended.

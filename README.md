@@ -11,3 +11,4 @@ Every image is available in source form (an SVG file) as well as various resolut
 Note that some images deliberately have a transparent background, so you can use them in any color you want. This is especially useful for printing on t-shirts.
 
 ---
+
