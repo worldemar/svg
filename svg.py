@@ -30,7 +30,6 @@ def main():
     # generate PNG files for each resolution
     for resolution in args.resolutions.split(','):
         print(f'Generating image {image_title} at ?x{resolution} px')
-        # rsvg-convert --height 2160 --keep-aspect-ratio --format png --output ayumu.png svgs/kasuga-ayumu/kasuga-ayumu.svg
         subprocess.check_call([
             'rsvg-convert',
             '--height', resolution,
