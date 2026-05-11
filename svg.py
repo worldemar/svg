@@ -30,15 +30,15 @@ def main():
     # generate PNG files for each resolution
     for resolution in args.resolutions.split(','):
         print(f'Generating image {image_title} at ?x{resolution} px')
+        # rsvg-convert --height 2160 --keep-aspect-ratio --format png --output ayumu.png svgs/kasuga-ayumu/kasuga-ayumu.svg
         subprocess.check_call([
-            'magick',
-            '-density', '600',
-            f'{image_title}.svg',
-            '-scale', f'x{resolution}',
-            os.path.abspath(os.path.join(deploy_directory, image_title + f'_{resolution}.png'))
-        ], cwd=args.svgdir)
-
-    
+            'rsvg-convert',
+            '--height', resolution,
+            '--keep-aspect-ratio',
+            '--format', 'png',
+            '--output', os.path.abspath(os.path.join(deploy_directory, image_title + f'_{resolution}.png')),
+            os.path.abspath(os.path.join(args.svgdir, f'{image_title}.svg'))
+        ])
 
 if __name__ == '__main__':
     main()

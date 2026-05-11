@@ -21,7 +21,6 @@ FROM alpine:3.23.4
 
 RUN apk add \
     bash=5.3.3-r1 \
-    imagemagick=7.1.2.19-r0 \
     rsvg-convert=2.61.2-r0 \
     python3=3.12.13-r0
 
