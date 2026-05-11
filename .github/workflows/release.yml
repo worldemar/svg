@@ -8,7 +8,7 @@ jobs:
   bundle:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v6
       - name: build ci environment
         run: |
           docker build --pull --rm -t svgs:ci .
