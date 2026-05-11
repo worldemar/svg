@@ -1,0 +1,31 @@
+name: Release Bundles
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  bundle:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: build ci environment
+        run: |
+          docker build --pull --rm -t svgs:ci .
+      - name: generate QR
+        run: |
+          docker run --rm -v .:/src -w /src svgs:ci svgs.py --htmldirs=svgs --builddir=bundles
+      - name: generate README.md
+        run: |
+          rm -rf docs
+          mv bundles docs
+          sudo git checkout -- docs/_config.yml
+          docker run --rm -v .:/src -w /src svgs:ci release.py
+      - name: release
+        run: |
+          git config --global user.email "worldemaru@gmail.com"
+          git config --global user.name "Vladimir Looze"
+          git add docs
+          git commit -m "release new bundles"
+          git push --force origin main
+ 
