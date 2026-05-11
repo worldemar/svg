@@ -1,0 +1,1 @@
+Title from [CITY](https://en.wikipedia.org/wiki/City_(manga)). Traced and manually modified from high-resolution frame, to keep font *exactly* as [Keiichi Arawi](https://en.wikipedia.org/wiki/Keiichi_Arawi) intended.
