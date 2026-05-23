@@ -1,4 +1,4 @@
-Collection of various vector art I've made over the years. Some were done for practical purposes like printing on t-shirts, some for aesthetic purposes, some for fun.
+Collection of various vector art I've made. Some were done for practical purposes like printing on t-shirts, some for aesthetic purposes, some for fun.
 
 Every image is available under CC BY-NC-SA 4.0 and released in source form (an SVG file) as well as various resolutions of raster form (a PNG file). Select one you want and download it.
 
