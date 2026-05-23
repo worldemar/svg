@@ -1,0 +1,1 @@
+Title from [Asobi Asobase](https://en.wikipedia.org/wiki/Asobi_Asobase). Traced and manually modified from high-resolution frame. Calligraphy was relatively hard to replicate with bezier curves, but I managed to get it close to original. I intentionally omitted "ASOBI ASOBASE" romanization as it is too small for printing anyway. Colors may be imperceptibly inaccurate.
