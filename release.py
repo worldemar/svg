@@ -38,7 +38,7 @@ def main():
         readme_pages.write(b'\n\n---\n\n')
         readme_pages.write(b'| Preview | Description and links |\n')
         readme_pages.write(b'| :-: | :- |\n')
-        for app_name in os.listdir('svgs'):
+        for app_name in sorted(os.listdir('svgs')):
             write_svg_info(app_name, readme_pages)
         readme_pages.write(b'\n\n---\n\n')
         with open('LICENSE', 'rb') as license:

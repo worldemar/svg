@@ -1,0 +1,1 @@
+Title from [Konosuba](https://en.wikipedia.org/wiki/KonoSuba). Traced and manually modified from high-resolution frame. Text is intentionally omitted as it contains details too small for printing and fonts cannot be bundled within SVG anyway. I will also note that original text has surprisingly uneven kerning.
